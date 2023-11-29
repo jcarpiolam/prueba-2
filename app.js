@@ -43,6 +43,6 @@ elementos.forEach((item, index) => {
   });
 
   li.innerHTML = item;
-  item.appendChild(li);
-  lista.appendChild(checkbox);
+  li.appendChild(checkbox);
+  lista.appendChild(li);
 });
